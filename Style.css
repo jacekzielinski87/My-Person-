@@ -1,33 +1,75 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
 
 
 
 .informations {
     color:#fff;
+    text-decoration-line: underline;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
 .daten {
     color:#fff;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: bold;
+    margin:20px;
 }
 
-.skills {
+.sprachen {
     color:#fff;
-}
-
-.right {
-    background-color: #474747;
-    height:950px;
-    width:600px;
-    border-radius: 16px;
-    position:absolute;
-    left:600px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration-line: underline;
+    margin-top: 4px;
+    padding:16px;
 }
 
 .left {
     height:950px;
     width:600px; 
-    background-color: #946161;
+    background-color: #b17070;
     border-radius: 16px;
     position: absolute;
-    
+}
+
+.info {
+    color:#fff;
+    display:flex;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
+    margin:24px;
+}
+
+.image {
+    position:absolute;
+    left:240px;
+    bottom:515px;
+    clip-path: circle(35% at 50% 50%);
+    background-color: #a15252;
+}
+
+.down {
+    background-color: #a67598;
+    height:280px;
+    width:600px;
+    border-radius: 12px;
+}
+
+.sprache {
+    font-size: 1.3rem;
+    padding:12px;
+    color:#fff;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: italic;
+    margin:10px;
 }
