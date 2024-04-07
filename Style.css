@@ -1,0 +1,33 @@
+
+
+
+
+.informations {
+    color:#fff;
+}
+
+.daten {
+    color:#fff;
+}
+
+.skills {
+    color:#fff;
+}
+
+.right {
+    background-color: #474747;
+    height:950px;
+    width:600px;
+    border-radius: 16px;
+    position:absolute;
+    left:600px;
+}
+
+.left {
+    height:950px;
+    width:600px; 
+    background-color: #946161;
+    border-radius: 16px;
+    position: absolute;
+    
+}
