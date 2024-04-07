@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 
-
+.body {
+    background-color: rgb(34, 102, 161);
+}
 
 
 .informations {
@@ -11,6 +13,7 @@
     font-family: "Merriweather", serif;
     font-weight: 600;
     font-style: italic;
+    margin:20px;
 }
 
 .daten {
@@ -24,11 +27,10 @@
 .sprachen {
     color:#fff;
     font-family: "Merriweather", serif;
-    font-weight: 900;
+    font-weight: 800;
     font-style: italic;
     text-decoration-line: underline;
-    margin-top: 4px;
-    padding:16px;
+    margin:20px;
 }
 
 .left {
@@ -37,6 +39,7 @@
     background-color: #b17070;
     border-radius: 16px;
     position: absolute;
+    border:2px solid black;
 }
 
 .info {
@@ -57,12 +60,6 @@
     background-color: #a15252;
 }
 
-.down {
-    background-color: #a67598;
-    height:280px;
-    width:600px;
-    border-radius: 12px;
-}
 
 .sprache {
     font-size: 1.3rem;
@@ -72,4 +69,22 @@
     font-weight: 600;
     font-style: italic;
     margin:10px;
+}
+
+.right {
+    background-color: #f58080;;
+    height:580px;
+    width:550px;
+    position:absolute;
+    bottom:5px;
+    left:350px;
+    border-radius: 10px;
+    border: 4px solid rgb(71, 54, 87);
+}
+
+.letter {
+    color:#fff;
+    padding:12px;
+    margin:6px;
+    font-size: 1.3rem;
 }
